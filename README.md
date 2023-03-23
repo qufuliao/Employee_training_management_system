@@ -1,0 +1,3 @@
+# Employee_training_management_system
+数据库课程设计
+这是我写的数据库课程设计的代码，我正在学习如何使用git和github
