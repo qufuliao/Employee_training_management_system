@@ -352,7 +352,7 @@ class SixthForm(QMainWindow, Ui_Form6):
     def delete_courses(self):#删除选中课程
         cursor = self.conn.cursor()
         for cid in self.deleteList:
-            cursor.execute(f"DELETE FROM COURSES WHERE cid={cid}")
+            cursor.execute(f"DELETE FROM COURSES WHERE cid={cid}")#删除课程
             self.conn.commit()
         self.deleteList.clear()
 
